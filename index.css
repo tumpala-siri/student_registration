@@ -1,0 +1,57 @@
+.bg{
+    background-image: url("https://wallpapers.com/images/featured/college-background-4ucekkclp0tepcan.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec{
+    background-color:rgba(3, 14, 14, 0.26) ;
+    
+
+    border-radius: 10px;
+    width:30vw;
+    height:30vh;
+    text-align: center;
+    padding-top: 8vh;
+    
+}
+label,input{
+    margin:4px;
+    font-size: 20px;
+    text-transform:capitalize;
+}
+button{
+    color:azure;
+    background-image: linear-gradient(rgba(235, 84, 209, 0.76),rgb(204, 134, 146));
+    margin:10px;
+    border-radius: 10px;
+    padding:10px 20px;
+
+}
+input{
+    background-color: rgba(67, 78, 78, 0.699);
+    color:rgb(214, 138, 138);
+
+}
+ul{
+    list-style-type: none;
+}
+.se2{
+    display:none;
+    background-color: rgba(199, 157, 157, 0.507);
+    border-radius: 10px;
+    margin:10px;
+    text-align: center;
+    padding:20px
+    
+}
+button:hover{
+    background-image: linear-gradient(rgba(235, 38, 3, 0.993),rgb(238, 156, 169)); 
+    margin:5px;
+     padding:15px 25px;
+    
+}
